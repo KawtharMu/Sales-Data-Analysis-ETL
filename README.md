@@ -90,6 +90,6 @@ Building Dashboard Using Power BI
 ![image](https://user-images.githubusercontent.com/92683172/192154640-752ed89a-e6ab-4fe0-969b-682dc1658376.png)
 	
 	
-Building Dashboard for mobile Using Power BI
+Mobile Version
 ============================
 ![image](https://user-images.githubusercontent.com/92683172/192154780-1ace6fb4-377e-41d9-85ac-eae577a7a7b9.png)
