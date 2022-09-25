@@ -42,7 +42,7 @@ and transactions.market_code="Mark001";`
 Data Analysis Using Power BI
 ============================
 
--ETL Procedure- 
+**ETL Procedure** 
 
 1. Formula to remove -1 and 0 values from sales_amount column - in sales_transactions table
 
