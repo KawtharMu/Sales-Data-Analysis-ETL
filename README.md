@@ -61,11 +61,11 @@ Star Schema
 ![image](https://user-images.githubusercontent.com/92683172/192153405-22568e52-0b57-40c6-a5d4-8c673a97d7d3.png)
 
 
-Data Analysis Using Power BI - ETL Procedure
+ETL Procedure
 ============================
 
-<li> 	Extracted the data from the SQL Dump onto MySQL, creating a sales Database containing the following tables: Customers, Date, Markets, Products, Transactions.<br><br>
-<li>	Transformed the data to prepare it for loading onto Power BI, the transformation process included cleansing the data and establishing consistency:<br>	 	
+<li> 	`Extracted` the data from the SQL Dump onto MySQL, creating a sales Database containing the following tables: Customers, Date, Markets, Products, Transactions.<br><br>
+<li>	`Transformed` the data to prepare it for loading onto Power BI, the transformation process included cleansing the data and establishing consistency:<br>	 	
 1. Formula to remove -1 and 0 values from sales_amount column - in sales_transactions table
 
 `= Table.SelectRows(sales_transactions, each ([sales_amount] <> -1 and [sales_amount] <> 0))`
@@ -82,7 +82,7 @@ Data Analysis Using Power BI - ETL Procedure
 
 `= Table.SelectRows(sales_markets, each ([zone] <> ""))`
 <br><br>
-<li> 	Loaded the clean data onto Power BI to build the dashboard.
+<li> 	`Loaded` the clean data onto Power BI to build the dashboard.
 
 
 Building Dashboard Using Power BI
