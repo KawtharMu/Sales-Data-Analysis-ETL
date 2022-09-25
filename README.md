@@ -1,4 +1,20 @@
 # Sales-Data-Analysis
+### Overview
+In this project, I used an SQL Dump found on GitHub, which contains data about an India-based company’s customers, markets, products, and transactions.
+This project’s objective was to create a dashboard that would allow managers in the company to gain insights into sales performance and make decisions based on that, where the end goal is increasing sales.
+Before beginning, defining the metrics and KPIs is crucial to getting the most out of the data in hand, so the questions we need to answer are:
+     1.	What’s the company’s revenue growth over time?
+     2.	What’s the revenue from each specific client?
+     3.	How many sales were made in each year/month?
+     4.	How many sales were made by a specific client?
+     5.	Who are the top customers?
+     6.	Which products are bestsellers?
+     7.	What markets bring in the most revenue?
+     8.	What markets have the biggest sales quantity?
+     9.	What percentage of sales were made online?
+The dashboard will help answer the questions above, shedding light on areas of improvement to increase sales.
+
+
 ### Data Analysis Using SQL
 
 1. Show all customer records
@@ -47,7 +63,7 @@ Star Schema
 Data Analysis Using Power BI
 ============================
 
-**ETL Procedure** 
+### ETL Procedure
 
 1. Formula to remove -1 and 0 values from sales_amount column - in sales_transactions table
 
