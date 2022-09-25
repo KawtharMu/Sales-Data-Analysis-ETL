@@ -1,7 +1,7 @@
 # Sales-Data-Analysis
 ### Overview
 In this project, I used an SQL Dump found on GitHub, which contains data about an India-based company’s customers, markets, products, and transactions.
-This project’s objective was to create a dashboard that would allow managers in the company to gain insights into sales performance and make decisions based on that, where the end goal is increasing sales.
+This project’s objective was to create a dashboard that would allow managers in the company to gain insights into sales performance and make decisions based on that, where the end goal is increasing sales.<br>
 Before beginning, defining the metrics and KPIs is crucial to getting the most out of the data in hand, so the questions we need to answer are:
 1. 	What’s the company’s revenue growth over time?
 2. 	What’s the revenue from each specific client?
@@ -66,6 +66,8 @@ Data Analysis Using Power BI
 
 ### ETL Procedure
 
+<li> 	Extracted the data from the SQL Dump onto MySQL, creating a sales Database containing the following tables: Customers, Date, Markets, Products, Transactions.<br><br>
+<li>	Transformed the data to prepare it for loading onto Power BI, the transformation process included cleansing the data and establishing consistency:<br>	 	
 1. Formula to remove -1 and 0 values from sales_amount column - in sales_transactions table
 
 `= Table.SelectRows(sales_transactions, each ([sales_amount] <> -1 and [sales_amount] <> 0))`
@@ -81,4 +83,15 @@ Data Analysis Using Power BI
 4. Formula to remove NULL zones - in sales_markets table
 
 `= Table.SelectRows(sales_markets, each ([zone] <> ""))`
+<br><br>
+<li> 	Loaded the clean data onto Power BI to build the dashboard.
 
+
+Building Dashboard Using Power BI
+============================
+![image](https://user-images.githubusercontent.com/92683172/192154640-752ed89a-e6ab-4fe0-969b-682dc1658376.png)
+	
+	
+Building Dashboard for mobile Using Power BI
+============================
+![image](https://user-images.githubusercontent.com/92683172/192154780-1ace6fb4-377e-41d9-85ac-eae577a7a7b9.png)
