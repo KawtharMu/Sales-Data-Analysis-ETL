@@ -39,6 +39,11 @@
 and transactions.market_code="Mark001";`
 
 
+Star Schema
+============================
+![image](https://user-images.githubusercontent.com/92683172/192153405-22568e52-0b57-40c6-a5d4-8c673a97d7d3.png)
+
+
 Data Analysis Using Power BI
 ============================
 
