@@ -61,10 +61,8 @@ Star Schema
 ![image](https://user-images.githubusercontent.com/92683172/192153405-22568e52-0b57-40c6-a5d4-8c673a97d7d3.png)
 
 
-Data Analysis Using Power BI
+Data Analysis Using Power BI - ETL Procedure
 ============================
-
-### ETL Procedure
 
 <li> 	Extracted the data from the SQL Dump onto MySQL, creating a sales Database containing the following tables: Customers, Date, Markets, Products, Transactions.<br><br>
 <li>	Transformed the data to prepare it for loading onto Power BI, the transformation process included cleansing the data and establishing consistency:<br>	 	
