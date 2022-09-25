@@ -103,6 +103,6 @@ Insights
 <li>	The Delhi Market is the one with the highest revenue and sales quantity, and has been over the years, followed by Mumbai.
 <li>	Electricalsara Stores are the customer with the highest revenue.
 <li>	100% of  Electricalsara’s sales are done face-to-face and not online.
-<li>	January of 2018 was the month in which the company had the highest revenue with 523M$.
+<li>	January of 2018 was the month in which the company had the highest revenue with 523K$.
 <li>	As shown by the Top 5 Products bar chart, most product codes were left blank, showing there is a serious mistake that’s being done when inputting the transactions, this mistake needs to be addressed to be able to get better insights in which product bring in the highest revenue.
 
