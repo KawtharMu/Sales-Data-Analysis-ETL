@@ -45,10 +45,6 @@ The dashboard will help answer the questions above, shedding light on areas of i
 1. Show total revenue in year 2020,
 
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.currency="INR\r" or transactions.currency="USD\r";`
-	
-1. Show total revenue in year 2020, January Month,
-
-    `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and and date.month_name="January" and (transactions.currency="INR\r" or transactions.currency="USD\r");`
 
 1. Show total revenue in year 2020 in Chennai
 
